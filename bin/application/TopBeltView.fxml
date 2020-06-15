@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox fx:id="hBox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.TopBeltController">
+   <children>
+      <ImageView fx:id="icon_orderBoard" fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+         <HBox.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </HBox.margin>
+         <image>
+            <Image url="@../../Blackboard-512.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="icon_company" fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../list.png" />
+         </image>
+         <HBox.margin>
+            <Insets bottom="10.0" right="10.0" top="10.0" />
+         </HBox.margin>
+      </ImageView>
+      <ImageView fx:id="icon_product" fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../box.png" />
+         </image>
+         <HBox.margin>
+            <Insets bottom="10.0" right="10.0" top="10.0" />
+         </HBox.margin>
+      </ImageView>
+      <ImageView fx:id="icon_find" fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../weight.png" />
+         </image>
+         <HBox.margin>
+            <Insets bottom="10.0" right="10.0" top="10.0" />
+         </HBox.margin>
+      </ImageView>
+      <ImageView fx:id="icon_saveAs" fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../68747470733a2f2f63646e332e69636f6e66696e6465722e636f6d2f646174612f69636f6e732f6465762d62617369632f3531322f736176655f61732d3531322e706e67.png" />
+         </image>
+         <HBox.margin>
+            <Insets bottom="10.0" right="10.0" top="10.0" />
+         </HBox.margin>
+      </ImageView>
+      <ImageView fx:id="icon_save" fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../save-icon.png" />
+         </image>
+         <HBox.margin>
+            <Insets bottom="10.0" right="10.0" top="10.0" />
+         </HBox.margin>
+      </ImageView>
+      <ImageView fx:id="icon_load" fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../seo-social-web-network-internet_12_icon-icons.com_61498.png" />
+         </image>
+         <HBox.margin>
+            <Insets bottom="10.0" right="10.0" top="10.0" />
+         </HBox.margin>
+      </ImageView>
+      <ImageView fx:id="icon_add" fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../add-button-inside-black-circle.png" />
+         </image>
+         <HBox.margin>
+            <Insets bottom="10.0" right="10.0" top="10.0" />
+         </HBox.margin>
+      </ImageView>
+      <Label fx:id="infoLabel" alignment="CENTER_RIGHT" prefHeight="50.0" prefWidth="250.0">
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+         <font>
+            <Font name="Ebrima Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</HBox>
